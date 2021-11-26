@@ -17,7 +17,7 @@ var Hack = function() {
 		speedMlt: 0,
         esp: true,
         aimbot: true,
-        timeScale: 0
+        timeScale: 6421234211234555432
 	};
 	this.hooks = {
 		network: null,
@@ -199,7 +199,4 @@ var Hack = function() {
 		return Math.asin(g / h) * (b > e ? -1 : 1);
 	};
 
-	this.setupHooks();
-	this.setupBinds();
-};
-FakeGuard = new(Hack)();
+	
